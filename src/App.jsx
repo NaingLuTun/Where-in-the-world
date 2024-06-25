@@ -1,13 +1,14 @@
-
+import { ViewContext } from "./contexts/ViewContext"
 
 function App() {
 
 
   return (
-    <>
-      <div>Initial Content</div>
-    </>
+    <div>
+        <ViewContext/>
+    </div>
   )
 }
 
 export default App
+
